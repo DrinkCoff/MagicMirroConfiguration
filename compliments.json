@@ -16,39 +16,39 @@
     "The day was better for your efforts."
   ],
   
-  day_sunny: [
-			"Today is a sunny day",
-			"It's a beautiful day"
-		],
-		snow: [
-			"Snowball battle!"
-		],
-		rain: [
-			"Don't forget your umbrella"
-		],
+  "day_sunny": [
+    "Today is a sunny day",
+    "It's a beautiful day"
+  ],
+  "snow": [
+    "Snowball battle!"
+  ],
+  "rain": [
+    "Don't forget your umbrella"
+  ],
   
-    "....-01-01": [
-			"Happy new year!"
+  "....-01-01": [
+    "Happy new year!"
 		],
-    "....-02-06": [
-			"Happy Birthday, Aahvaan!"
+  "....-02-06": [
+    "Happy Birthday, Aahvaan!"
 		],
-    "....-02-20": [
-			"Happy Birthday, RTG!"
+  "....-02-20": [
+    "Happy Birthday, RTG!"
 		],
-    "....-05-30": [
-			"Happy Birthday, Mom!"
+  "....-05-30": [
+    "Happy Birthday, Mom!"
 		],
-    "....-06-01": [
-			"Happy Birthday, Papa!"
+  "....-06-01": [
+    "Happy Birthday, Papa!"
 		],
-    "....-09-17": [
-			"Happy Birthday, Mom!"
+  "....-09-17": [
+    "Happy Birthday, Mom!"
 		],
-    "....-10-19": [
-			"Human Dignity Day!"
+  "....-10-19": [
+    "Human Dignity Day!"
 		],
-		"....-10-31": [
-			"Happy Halloween!"
-		]
+  "....-10-31": [
+    "Happy Halloween!"
+  ]
 }
