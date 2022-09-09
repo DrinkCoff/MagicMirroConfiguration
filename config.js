@@ -105,22 +105,22 @@ let config = {
 				apiKey: "d27c116b5ada484fc0a6ea6ec255ec09"
 			}
 		},
-		// {
-			// module: "newsfeed",
-			// position: "bottom_bar",
-			// config: {
-				// feeds: [
-					// {
-						// title: "New York Times",
-						// url: "https://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml"
-					// }
-				// ],
-				// showSourceTitle: true,
-				// showPublishDate: true,
-				// broadcastNewsFeeds: true,
-				// broadcastNewsUpdates: true
-			// }
-		// },
+		{
+			module: "newsfeed",
+			position: "bottom_bar",
+			config: {
+				feeds: [
+					{
+						title: "New York Times",
+						url: "https://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml"
+					}
+				],
+				showSourceTitle: true,
+				showPublishDate: true,
+				broadcastNewsFeeds: true,
+				broadcastNewsUpdates: true
+			}
+		},
 		{
 		  module: "MMM-GooglePhotos",
 		  position: "fullscreen_below",
@@ -144,6 +144,45 @@ let config = {
 				showHeight: 1920,
 				timeFormat: "YYYY/MM/DD HH:mm", // Or `relative` can be used.
 		  }
+		},
+	
+		{
+			module: 'MMM-CalendarExt2',
+			position: 'top_right',
+			  config: {
+				calendars : [
+				  {
+					url: "https://calendar.google.com/calendar/ical/cthl6m08jmsmhn6iuksdf578k8%40group.calendar.google.com/public/basic.ics",
+				  },
+				],
+				views: [
+				  {
+					mode: "weekly",
+				  },
+				],
+				scenes: [
+				  {
+					name: "DEFAULT",
+				  },
+				],
+			  },
+		},
+		
+		{
+			module: 'MMM-Carousel',
+            position: 'bottom_bar', // Required only for navigation controls
+            config: {
+                transitionInterval: 10000,
+                showPageIndicators: true,
+                showPageControls: true,
+                ignoreModules: ['clock', 'alert', 'MMM-GooglePhotos'],
+                mode: 'slides',
+                slides: {
+                    main: ['MMM-CalendarExt2'] //, 'calendar', 'compliments'],
+                    "Slide 2": ['weather', 'newsfeed'],
+					"Slide 3": ['MMM-CalendarExt2'],
+                }
+            }
 		},
 	]
 };
