@@ -70,6 +70,11 @@ let config = {
 					{	// Hindi Holidays
 						symbol: "om",
 						url: "https://calendar.google.com/calendar/ical/en.hinduism%23holiday%40group.v.calendar.google.com/public/basic.ics"
+					},
+					{
+						// Family Important Days
+						symbol: "birthday-cake",
+						url:'https://calendar.google.com/calendar/ical/8gcoos8gl7st0dr0iudq4l7fkk%40group.calendar.google.com/private-f6062aa9e95dc6fb5a0d97329892cdd2/basic.ics',
 					}
 				]
 			}
@@ -122,6 +127,14 @@ let config = {
 			}
 		},
 		{
+			module: 'MagicMirror-QuoteCatalog',
+			// header: 'The Quote Catalog',
+			position: 'bottom_bar',
+			config: {
+						// See below for configurable options
+					}
+		},
+		{
 		  module: "MMM-GooglePhotos",
 		  position: "fullscreen_below",
 		  config: {
@@ -145,19 +158,25 @@ let config = {
 				timeFormat: "YYYY/MM/DD HH:mm", // Or `relative` can be used.
 		  }
 		},
-	
 		{
 			module: 'MMM-CalendarExt2',
 			position: 'top_right',
 			  config: {
 				calendars : [
 				  {
-					url: "https://calendar.google.com/calendar/ical/cthl6m08jmsmhn6iuksdf578k8%40group.calendar.google.com/public/basic.ics",
+					// Tithi
+					name: "Tithi",
+					url: "https://calendar.google.com/calendar/ical/tqjbi7t2sl4jsio6d8c5t887ig%40group.calendar.google.com/public/basic.ics",
+				  },
+				  {
+					// Bhojan: Lunch and Dinner
+					name: "Bhojan",
+					url:"https://calendar.google.com/calendar/ical/j57or8ei5ff9sck0nhc9h6d3ls%40group.calendar.google.com/private-d41e35d0484350aac8d103fad03c53c5/basic.ics",
 				  },
 				],
 				views: [
 				  {
-					mode: "weekly",
+					mode: "daily",
 				  },
 				],
 				scenes: [
@@ -175,11 +194,11 @@ let config = {
                 transitionInterval: 10000,
                 showPageIndicators: true,
                 showPageControls: true,
-                ignoreModules: ['clock', 'alert', 'MMM-GooglePhotos'],
+                ignoreModules: ['clock', 'alert', 'MMM-GooglePhotos', 'weather'],
                 mode: 'slides',
                 slides: {
-                    main: ['MMM-CalendarExt2'] //, 'calendar', 'compliments'],
-                    "Slide 2": ['weather', 'newsfeed'],
+                    main: ['calendar', 'compliments'],
+                    "Slide 2": ['MagicMirror-QuoteCatalog'],
 					"Slide 3": ['MMM-CalendarExt2'],
                 }
             }
