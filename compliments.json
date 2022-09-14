@@ -1,55 +1,80 @@
 {
-  "anytime": ["Born to be great!"],
-  "morning": [
-    "Good morning, sunshine!",
-    "Who needs coffee when you have your smile?",
-    "Go get 'em, Tiger!",
-    "Roar, Lion!"
-  ],
-  "afternoon": [
-    "Hitting your stride!",
-    "You are making a difference!",
-    "You're more fun than bubble wrap!"
-  ],
-  "evening": [
-    "You made someone smile today, I know it.",
-    "You are making a difference.",
-    "The day was better for your efforts."
-  ],
-  
-  "day_sunny": [
-    "Today is a sunny day",
-    "It's a beautiful day"
-  ],
-  "snow": [
-    "Snowball battle!"
-  ],
-  "rain": [
-    "Don't forget your umbrella"
-  ],
-  
-  "....-01-01": [
-    "Happy new year!"
-		],
-  "....-02-06": [
-    "Happy Birthday, Aahvaan!"
-		],
-  "....-02-20": [
-    "Happy Birthday, RTG!"
-		],
-  "....-05-30": [
-    "Happy Birthday, Mom!"
-		],
-  "....-06-01": [
-    "Happy Birthday, Papa!"
-		],
-  "....-09-17": [
-    "Happy Birthday, Mom!"
-		],
-  "....-10-19": [
-    "Human Dignity Day!"
-		],
-  "....-10-31": [
-    "Happy Halloween!"
-  ]
+	"anytime": [
+		"Born to be great!",
+		"One day or day one. You decide!"
+	],
+	"morning": [
+		"Good morning, sunshine!",
+		"Who needs coffee when you have your smile?",
+		"Go get 'em, Tiger!",
+		"Roar, Lion!",
+		"I opened two gifts this morning. They were my eyes.",
+		"You will never have this day again so make it count!",
+		"Opportunities are like sunrises.",
+		"Each morning we are born again.",
+		"What we do today is what matters most.",
+		"Your future is created by what you do today.",
+		"A champion is someone who gets up when he can’t."
+	],
+	"afternoon": [
+		"Hitting your stride!",
+		"You are making a difference!",
+		"You're more fun than bubble wrap!",
+		"A smooth sea never made a skilled sailor.",
+		"Focus on being productive instead of being busy.",
+		"Life is short. Don’t be lazy.",
+		"Good things happen to those who hustle."
+	],
+	"evening": [
+		"You made someone smile today, I know it.",
+		"You are making a difference.",
+		"The day was better for your efforts.",
+		"Every sunset brings the promise of a new dawn.",
+		"This is an evening of wonders, indeed!",
+		""
+	],
+
+	"day_sunny": [
+		"Today is a sunny day",
+		"It's a beautiful day"
+	],
+	"snow": [
+		"Snowball battle!"
+	],
+	"rain": [
+		"Don't forget your umbrella"
+	],
+
+	"....-01-01": [
+		"Happy new year!"
+	],
+	"....-02-06": [
+		"Happy Birthday, Aahvaan!"
+	],
+	"....-02-20": [
+		"Happy Birthday, RTG!"
+	],
+	"....-05-30": [
+		"Happy Birthday, Mom!"
+	],
+	"....-06-01": [
+		"Happy Birthday, Papa!"
+	],
+	"....-09-17": [
+		"Happy Birthday, Vidhi!",
+		"Wish you manay happy returns of the day!!",
+		"I can’t wait to see your beautiful smile light up the room for years to come.",
+		"A sweet day celebrating a sweet girl—how lucky I am to know you.",
+		"The journey continues! And yours is truly special.",
+		"I’m grateful to know someone as wonderful as you.",
+		"Another trip around the sun is in the books, my dear.",
+		"I’m eternally grateful for you.",
+		"I am so lucky to have you in my life."
+	],
+	"....-10-19": [
+		"Human Dignity Day!"
+	],
+	"....-10-31": [
+		"Happy Halloween!"
+	]
 }
