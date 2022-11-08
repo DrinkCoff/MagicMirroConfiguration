@@ -96,6 +96,7 @@
 	"....-10-19": [
 		"Human Dignity Day!"
 	],
+	# Dhan Trayodashi, Narak Chaturdashi, Deepavali
 	"....-10-23": [
 		"दीपावल्याः सहस्रदीपाः भवतः जीवनं सुखेन, सन्तोषेण, शान्त्या आरोग्येण च प्रकाशयन्तु।",
 		"दीपस्य  प्रकाशः न केवलं  भवतः गृहम्  उज्ज्वालयतु जीवनम् अपि |",
@@ -114,5 +115,12 @@
 	],
 	"....-10-31": [
 		"Happy Halloween!"
-	]
+	],
+	# Kartik Purnima
+	"2022-11-08": [
+		"Happy Dev Deepavali",
+		"Happy Tirupati Pournima",
+		"Happy Gurpurab",
+		"Happy Guru Nanak Janyanti"
+	],
 }
