@@ -229,6 +229,14 @@ Module.register("MagicMirror-QuoteCatalog",{
 				"એક પ્રબુદ્ધ સમાજ એ છે જ્યાં બધા લોકો - અમીર અને ગરીબ, સાક્ષર અને અભણ, કાળા અને સફેદ, સ્ત્રી અને પુરૂષ - એક જ ભગવાનના બાળકો તરીકે આનંદથી જીવે છે.  આમ ભગવાનના પિતૃત્વ હેઠળ પુરુષોના ભાઈચારાનો અનુભવ કરવો.  ~ દાદાજી", 
 				"જે આપણને સર્વશક્તિમાન ની નજીક લઈ જાય છે તે સત્ય છે.  સત્યને પોતાની જાતને ટકાવી રાખવા કે આગળ વધારવા માટે કોઈ બાહ્ય આધારની જરૂર નથી.  ~ દાદાજી",
 				"સમાજમાં દૈવી વિચારો અને શક્તિ સહઅસ્તિત્વ હોવા જોઈએ તે જરૂરી છે.  સાદી શ્રદ્ધા, ભૌતિક શક્તિઓ દ્વારા સમર્થિત નથી, તે નબળી છે અને દૈવીત્વના સ્પર્શ વિનાની શક્તિ ભયંકર છે.  ~ દાદાજી",
+		    
+		    		// Gobind Singhji
+		    		"The greatest comforts and lasting peace are obtained when one eradicates selfishness from within. ~ Guru Gobind Singh",
+			    "The ignorant person is totally blind. He does not appreciate the value of the jewel. ~ Guru Gobind Singh",
+			    "It is nearly impossible to be here now when you think there is somewhere else to be. ~ Guru Gobind Singh",
+			    "In egotism, one is assailed by fear, he passes his life totally troubled by fear. ~ Guru Gobind Singh",
+			    "Egotism is such a terrible disease, in the love of duality, they do their deeds. ~ Guru Gobind Singh",
+		    		" चिड़िया ते में बाज़ लड़ावा, गिद्रं तो में शेर बनाउन, सवा लाख से एक लड़ावा, तबे गोबिंद सिंह नाम कहउँ।  ~ Guru Gobind Singh",
 				""
             ]
         },
