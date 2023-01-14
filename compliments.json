@@ -2,13 +2,11 @@
 	"anytime": [
 		"यत भावो-तत भवति। ",
 		"मितं च सारं च वचो ही वाग्मिता।",
-		"मा त्यज।",
 		"निष्ठा धृतिः सत्यम्।",
 		"स्वयमेव मृगेन्द्रता। ",
 		"अहम् ब्रह्मास्मि। ",
 		"योगं कर्मसु कौशलम्।",
 		"परोपकारार्थं इदं शरीरं।",
-		"तत्वमसि।",
 		"न कश्चित् शाश्वतम्।",
 		"विद्याधनम् सर्वधनात् प्रधानम्।",
 		"जननि जन्मभूमिश्च स्वर्गादपि गरीयसी।",
@@ -18,6 +16,7 @@
 		"One day or day one. You decide!"
 	],
 	"morning": [
+		"तत्वमसि।",
 		"Good morning, sunshine!",
 		"Who needs coffee when you have your smile?",
 		"Go get 'em, Tiger!",
@@ -45,7 +44,9 @@
 		"The day was better for your efforts.",
 		"Every sunset brings the promise of a new dawn.",
 		"This is an evening of wonders, indeed!",
-		""
+		"उध्दरेदात्मनात्मानम्।",
+		"उतिष्ठत। जाग्रत। प्राप्य वरान्निबोधत।",
+		"मा त्यज।"
 	],
 
 	"day_sunny": [
@@ -61,6 +62,14 @@
 
 	"....-01-01": [
 		"Happy new year!"
+	],
+	"....-01-12" [
+		"Happy Yuva Din",
+	     	"उध्दरेदात्मनात्मानम्।",
+		"उतिष्ठत। जाग्रत। प्राप्य वरान्निबोधत।"
+	],
+	"....-01-14" : [
+		"Happy Makar Sankranti"
 	],
 	"....-02-06": [
 		"Happy Birthday, Aahvaan!"
